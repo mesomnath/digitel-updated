@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CreateUser</servlet-name>
+  	<display-name>CreateUser</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.CreateUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateTelNumber</servlet-name>
+  	<display-name>CreateTelNumber</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.CreateTelNumber</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PasswordReset</servlet-name>
+  	<display-name>PasswordReset</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.PasswordReset</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestChangeTelNumber</servlet-name>
+  	<display-name>RequestChangeTelNumber</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.RequestChangeTelNumber</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateUser</servlet-name>
+  	<display-name>UpdateUser</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ApprovalTelNumber</servlet-name>
+  	<display-name>ApprovalTelNumber</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.ApprovalTelNumber</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DiscardTelNumber</servlet-name>
+  	<display-name>DiscardTelNumber</display-name>
+  	<description></description>
+  	<servlet-class>user.servlets.DiscardTelNumber</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CreateUser</servlet-name>
+  	<url-pattern>/CreateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateTelNumber</servlet-name>
+  	<url-pattern>/CreateTelNumber</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PasswordReset</servlet-name>
+  	<url-pattern>/PasswordReset</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestChangeTelNumber</servlet-name>
+  	<url-pattern>/RequestChangeTelNumber</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateUser</servlet-name>
+  	<url-pattern>/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ApprovalTelNumber</servlet-name>
+  	<url-pattern>/ApprovalTelNumber</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DiscardTelNumber</servlet-name>
+  	<url-pattern>/DiscardTelNumber</url-pattern>
+  </servlet-mapping>
+</web-app>
